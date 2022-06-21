@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <title>My life</title>
+</head>
+<body>
+
+    <div class="homes">
+        <img src="./images/bg.png" class="bg" alt="шапка">
+        <h1 class="title">My litle life</h1>
+        <nav>
+            <style>
+                .homes {
+                    margin: 40px;
+                }
+            </style>
+        </nav>
+    </div>
+    <div>
+        
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Детальніше</button>
+  <div id="myDropdown" class="dropdown-content">
+    
+    <a href="#myphoto">Мої фото </a>
+    <a href="#contacts">Контакти</a>
+    <a onclick="coments()"  href="#registers">Зареєструватись</a> 
+    <a onclick="list ()" href="#clients_registers"> Список відвідувачів </a>
+  </div>
+</div>
+
+        
+        <img class="nature" src="./images/photo_2022-06-05_14-38-29.jpg" alt="" width="1100px" height="600px">
+        <h1 class="profile" >Мій он-лайн профіль </h1>
+
+    </div>
+    <div>
+        <h1 class = "descriptions">Опис</h1>
+        <p class="description">Привіт) Я Влад.Розроблюю цей сайт,та в майбутньому хочу стати програмистом</p>
+       
+    </div>
+    <div>
+    <h1  id="myphoto">Мої фото</h1>
+        <img src="./images/my_brothers.jpg" alt="" class="photo_brothers">
+        <img src="./images/photo_2022-06-05_15-17-10.jpg" alt="" class="photo_mother">
+        <img src="./images/photo_2022-06-05_15-17-17.jpg" alt="" class="and_i">
+    </div>
+   
+    <div>
+        <h1 class="coment">Коментарі</h1>
+        <h3 class="Olena">Олена Байбух</h3>
+        <p class="coments1">Супер,дуже красиві фото :)</p>
+      
+       <h2 class="leave_a_coment">Залишити коментар</h2>
+    
+        <textarea  name="coment" id="comentations" cols="30" rows="10"></textarea>
+        <button class="button">Віправити</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

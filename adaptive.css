@@ -1,0 +1,187 @@
+@media all and (max-width: 500px) {
+    .title {
+        position: absolute;
+        left: 55px;
+        top: 5px;
+        color: red;
+    }   
+    .home {
+        position: absolute;
+        left: 250px;
+        top: 35px;
+    
+        font-size: 17px;
+        color: white;
+    }
+    .my_photo {
+        position: absolute;
+        left: 380px;
+        top: 35px;
+    
+        font-size: 17px;
+        color: white;
+    }
+    .contacts {
+        position: absolute;
+        left: 500px;
+        top: 35px;
+        
+        font-size: 17px;
+        color: white;
+        }
+        .clients_registers {
+            position: absolute;
+            top:37px;
+            left: 650px;   
+            
+            width: 100px;
+           height: 30px;
+           border-radius: 5px;
+           font-size: 14px;
+           color: white;
+           }
+
+           .registers {
+            position: absolute;
+            left: 776px;
+            top: 35px;
+            border-radius: 5px;
+            color: white;
+ }
+            .bg {
+                position: absolute;
+                height: 70px;
+                width: 900px;
+                top: 10px;
+                left: 0px;
+            }
+            .nature {
+                position: absolute;
+                top: 100px;
+                left: 0px;
+                height: 600px;
+                width: 900px;
+            }
+            .descriptions {
+                position: absolute;
+                top: 700px;
+                left: 470px;
+            }
+            .description {
+                position: absolute;
+                top: 750px;
+                left: 450px;
+
+                font-size: 23px;
+              
+            }
+            #myphoto {
+                position:absolute;
+                top: 920px;
+                left: 480px;
+            }
+            .photo_brothers {
+                position: absolute;
+                top: 1050px;
+            left: 400px;
+                width: 235px;
+                height: 315px;
+            }
+            .photo_mother {
+                position: absolute;
+                top: 1410px;
+                left: 400px;
+                width:235px;
+                height:315px;
+ }
+ .and_i {
+    position:absolute ;
+    top: 1770px;
+    left: 400px;
+    width: 235px;
+    height: 315px;
+}
+.coment {
+    position: absolute;
+    top: 2100px;
+    left: 450px;
+}
+.Olena {
+    position: absolute;
+    top: 2200px;
+    left: 50px;
+}
+.coments1 {
+    position: absolute;
+    top: 2230px;
+    left: 50px;
+
+    padding: 10px;
+    border: 20px;
+}
+#comentations {
+    position: absolute;
+   height: 50px;
+   width: 500px;
+    top: 2400px;
+    left: 50px;
+}
+.button {
+    position: absolute;
+    top: 2470px;
+    left: 450px;
+}
+.leave_a_coment {
+    position: absolute;
+    top: 2300px;
+    left: 50px;
+}
+.dropbtn {
+    position: absolute;
+    background-color:red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+left: 700px;
+top: -35px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rosybrown;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {
+    display:block;
+    position: absolute;
+    left: 700px;
+    top: 50px;
+
+     }
+ }
